@@ -1,0 +1,32 @@
+AEA2 · SESSIÓ 3 · CONNECTA LES PÀGINES
+Nom i cognoms:
+
+PROJECTE PROPI
+1. Des de quin fitxer he provat la navegació?
+
+2. Escriu una ruta relativa que hagis utilitzat i explica-la:
+
+3. Quin text d’enllaç has triat perquè sigui entenedor?
+
+REPTE CAMPUS BYTE
+Escriu cinc reparacions amb aquest format:
+fitxer d’origen -> destinació -> ruta avariada -> ruta correcta
+
+1.
+2.
+3.
+4.
+5.
+
+PROVA FINAL
+He descomprimit una còpia del ZIP i he comprovat:
+[ ] inici -> programa
+[ ] programa -> contacte
+[ ] contacte -> inici
+[ ] enllaç al fragment #horaris
+[ ] enllaç extern
+
+TANCAMENT INDIVIDUAL
+Ara entenc que ../ significa:
+
+La comprovació que m’ha resultat més útil ha estat:
