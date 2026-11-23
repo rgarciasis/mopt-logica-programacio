@@ -1,0 +1,13 @@
+Nom i grup:
+1. Predicció, canvi de src i resultat:
+2. Imatge: ruta, autoria/origen, permís i justificació de l’alt:
+3. Àudio: funció, ruta, autoria/permís i transcripció:
+4. Vídeo: funció, ruta, autoria/permís, descripció i ruta del VTT:
+5. Subtítols: URL HTTP, pista seleccionada i text que he vist:
+6. Repte (símptoma → causa → canvi → prova):
+   Error 1:
+   Error 2:
+   Error 3:
+   Error 4:
+7. Prova del ZIP en una carpeta nova: navegació i mitjans:
+8. Drive i Classroom: nom del ZIP entregat:

@@ -1,0 +1,8 @@
+WEB COMPLET DE L’ALUMNAT · 17/11/2026
+
+Descomprimeix el ZIP i obre index.html. Per publicar, copia tot el contingut a l’arrel de publicació.
+S1–S3 de l’AEA2 conservades. S4 reconstruïda i integrada amb laboratori descarregable. S5–S7 pendents. No inclou recursos docents.
+
+Subtítols: s’han vist en Chrome servint el model per HTTP. No s’ha provat Firefox ni GitHub Pages. Si obres el model amb doble clic, file:// pot bloquejar el VTT. Segueix downloads/s4/LLEGEIX.html per fer la prova a Ubuntu.
+
+Els quatre errors de repte.html són intencionats. Els HTML base de la S3 són plantilles per incorporar al projecte de l’alumne.

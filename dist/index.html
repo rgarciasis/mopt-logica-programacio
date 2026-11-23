@@ -7,7 +7,7 @@
   <title>Lògica i Programació · SMX</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="extras.css">
 </head>
@@ -21,7 +21,6 @@
     <nav aria-label="Navegació principal">
       <a class="active" href="#inici">Inici</a><a href="#aeas">AEAs</a><a href="#conceptes-web">Conceptes</a><a href="#recursos">Recursos</a><a href="#itinerari">Mapa</a>
     </nav>
-    <button class="mode" id="modeBtn" aria-pressed="false"><span>●</span> Vista alumnat</button>
     <button class="menu" id="menuBtn" aria-label="Obre el menú" aria-expanded="false">☰</button>
   </header>
 
@@ -67,7 +66,7 @@
     <section class="content-section aea2-section" id="aea2" aria-labelledby="aea2-title">
       <div class="section-head"><div><p class="overline">AEA2 · RA2 · 20 HORES</p><h2 id="aea2-title">Arquitectes de la informació</h2></div><p>No memoritzarem una llista d’etiquetes. Construirem, provarem i millorarem un lloc web real, peça a peça.</p></div>
       <div class="aea2-hero">
-        <div><span class="status-pill">SESSIONS 1, 2 I 3 DISPONIBLES</span><h3>Entén-la. Construeix-la. Connecta-la.</h3><p>Descobreix com viatja una pàgina, organitza el contingut HTML i converteix documents separats en un lloc web navegable.</p><a href="#conceptes-web">Comença pels conceptes →</a></div>
+        <div><span class="status-pill">SESSIONS 1–4 DISPONIBLES</span><h3>Entén-la. Construeix-la. Connecta-la.</h3><p>Descobreix com viatja una pàgina, organitza el contingut HTML i converteix documents separats en un lloc web navegable.</p><a href="#conceptes-web">Comença pels conceptes →</a></div>
         <div class="html-xray" aria-label="Esquema visual d'un document HTML">
           <span>&lt;html&gt;</span><div><span>&lt;head&gt;</span><small>Informació per al navegador</small></div><div><span>&lt;body&gt;</span><small>Allò que veu la persona</small></div><span>&lt;/html&gt;</span>
         </div>
@@ -76,7 +75,7 @@
         <a class="session-card active" href="#aea2-lab"><span>S1 · 3 h · DISPONIBLE</span><b>La web per dins</b><small>Fonaments, estructura i primera pàgina</small></a>
         <a class="session-card active secondary-session" href="#aea2-s2"><span>S2 · 3 h · DISPONIBLE</span><b>Contingut amb sentit</b><small>Jerarquia, paràgrafs, èmfasi i comentaris</small></a>
         <a class="session-card active tertiary-session" href="#aea2-s3"><span>S3 · 3 h · DISPONIBLE</span><b>Connecta les pàgines</b><small>Enllaços, rutes i navegació</small></a>
-        <article class="session-card"><span>S4 · 3 h</span><b>Explica amb mitjans</b><small>Imatges, àudio i vídeo accessibles</small></article>
+        <a class="session-card active" href="#aea2-s4"><span>S4 · 3 h</span><b>Explica amb mitjans</b><small>Imatges, àudio i vídeo accessibles</small></a>
         <article class="session-card"><span>S5 · 3 h</span><b>Ordena la informació</b><small>Llistes, taules i dades entenedores</small></article>
         <article class="session-card"><span>S6 · 3 h</span><b>Construeix el lloc</b><small>Semàntica i organització d’arxius</small></article>
         <article class="session-card"><span>S7 · 2 h</span><b>Publica amb criteri</b><small>Validació, documentació i defensa</small></article>
@@ -166,7 +165,30 @@
       </div>
     </section>
 
-    <section class="content-section aea1-section" id="aea1" aria-labelledby="aea1-title">
+    <section class="content-section" id="aea2-s4">
+      <div class="section-head">
+        <div><p class="overline">AEA2 · SESSIÓ 4</p><h2>Explica amb mitjans</h2></div>
+        <p>Imatges, àudio i vídeo. Obre, canvia i comprova.</p>
+      </div>
+      <div class="web-lesson">
+        <aside class="lesson-sidebar">
+          <p class="overline">165 MIN DE TREBALL</p><h3>Un recurs, una ruta</h3>
+          <nav class="lesson-nav" aria-label="Parts de la sessió 4">
+            <button data-s4="mission"><span>00</span>Missió</button>
+            <button data-s4="theory"><span>01</span>Idea clau</button>
+            <button data-s4="model"><span>02</span>Model</button>
+            <button data-s4="lab"><span>03</span>Laboratori</button>
+            <button data-s4="project"><span>04</span>Projecte</button>
+            <button data-s4="challenge"><span>05</span>Repte</button>
+            <button data-s4="deliver"><span>06</span>Lliurament</button>
+            <button data-s4="guide"><span>07</span>Guia de consulta</button>
+          </nav>
+          <a href="downloads/AEA2_S4_Practica.zip" download>Descarrega la pràctica completa ↓</a>
+        </aside>
+        <article id="s4Content" class="lesson-stage" tabindex="-1"></article>
+      </div>
+    </section>
+<section class="content-section aea1-section" id="aea1" aria-labelledby="aea1-title">
       <div class="section-head"><div><p class="overline">AEA1 · RA1 · 12 HORES · COMPLETA</p><h2 id="aea1-title">40 reptes de pensament computacional</h2></div><p>Quatre sessions, quatre categories i una única manera de treballar. Sempre avancem del nivell A al B i al C.</p></div>
       <div class="session-roadmap aea1-session-picker" role="tablist" aria-label="Sessions de l'AEA1">
         <button class="session-card active" data-aea1-session="s1"><span>S1 · CATEGORIA S · 3 h</span><b>Seqüència i traça</b><small>10 targetes · nivells A, B i C</small></button>
@@ -225,7 +247,7 @@
     </section>
 
     <section class="content-section resources" id="recursos" aria-labelledby="resources-title">
-      <div class="section-head"><div><p class="overline">BIBLIOTECA</p><h2 id="resources-title">Consulta o descarrega</h2></div><div class="filter"><button class="selected" data-filter="all">Tot</button><button data-filter="student">Alumnat</button><button data-filter="teacher">Professorat</button></div></div>
+      <div class="section-head"><div><p class="overline">BIBLIOTECA</p><h2 id="resources-title">Consulta o descarrega</h2></div><div class="filter"><button class="selected" data-filter="all">Tot</button><button data-filter="student">Alumnat</button></div></div>
       <div class="resource-list">
         <a data-kind="student" href="downloads/AEA0_Guia_alumnat.pdf" download><span class="file pdf">PDF</span><div><b>AEA0 · Guia revisada de l’alumnat</b><small>Enunciats guiats i exemple resolt · 6 pàgines</small></div><em>↓</em></a>
         <a data-kind="student" href="downloads/AEA0_Kit_equips_A4.pdf" download><span class="file kit">KIT</span><div><b>AEA0 · Kit d’equip</b><small>Fitxes, ordres, rols i incidències</small></div><em>↓</em></a>
@@ -234,73 +256,10 @@
         <a data-kind="student" href="downloads/AEA2_Conceptes_web_resum.pdf" download><span class="file pdf">PDF</span><div><b>AEA2 · Conceptes web essencials</b><small>Història, client-servidor, fitxers, URL i tipus de web</small></div><em>↓</em></a>
         <a data-kind="student" href="downloads/AEA2_S2_Guia_alumnat.pdf" download><span class="file pdf">PDF</span><div><b>AEA2 · Sessió 2 · Guia de l’alumnat</b><small>Contingut amb sentit · passos i evidències</small></div><em>↓</em></a>
         <a data-kind="student" href="downloads/AEA2_S3_Guia_alumnat.pdf" download><span class="file pdf">PDF</span><div><b>AEA2 · Sessió 3 · Guia de l’alumnat</b><small>Enllaços, rutes relatives i navegació</small></div><em>↓</em></a>
-        <a class="teacher-resource" data-kind="teacher" href="downloads/AEA0_Guia_docent_operativa.pdf" download><span class="file doc">DOC</span><div><b>AEA0 · Guia docent operativa</b><small>Preparació, conducció, observació i adaptacions</small></div><em>↓</em></a>
-        <a class="teacher-resource" data-kind="teacher" href="downloads/AEA0_Solucionari_docent_A4.pdf" download><span class="file doc">SOL</span><div><b>AEA0 · Solucionari docent</b><small>Respostes dels reptes i criteris d’observació</small></div><em>↓</em></a>
-        <a class="teacher-resource" data-kind="teacher" href="downloads/AEA0_Presentacio_visual_aula.pptx" download><span class="file ppt">PPT</span><div><b>AEA0 · Presentació d’aula</b><small>18 diapositives editables per conduir la sessió</small></div><em>↓</em></a>
-        <a class="teacher-resource" data-kind="teacher" href="downloads/AEA1_Guia_docent_targetes.pdf" download><span class="file doc">DOC</span><div><b>AEA1 · Guia docent de targetes</b><small>4 sessions, minutatge, controls i CE</small></div><em>↓</em></a>
-        <a class="teacher-resource" data-kind="teacher" href="downloads/AEA1_Solucionari_targetes.pdf" download><span class="file doc">SOL</span><div><b>AEA1 · Solucionari ràpid</b><small>40 respostes ordenades per categoria i nivell</small></div><em>↓</em></a>
-        <a class="teacher-resource" data-kind="teacher" href="downloads/AEA2_S1_Fonaments_web.pptx" download><span class="file ppt">PPT</span><div><b>AEA2 · Fonaments de la web</b><small>Mini-presentació visual per complementar la sessió 1</small></div><em>↓</em></a>
-        <a class="teacher-resource" data-kind="teacher" href="downloads/AEA2_S2_Guia_docent.pdf" download><span class="file doc">DOC</span><div><b>AEA2 · Sessió 2 · Guia docent</b><small>Conducció, solucions, pistes i avaluació</small></div><em>↓</em></a>
-        <a class="teacher-resource" data-kind="teacher" href="downloads/AEA2_S2_Presentacio.pptx" download><span class="file ppt">PPT</span><div><b>AEA2 · Sessió 2 · Presentació</b><small>Contingut amb sentit · PPTX editable</small></div><em>↓</em></a>
-        <a class="teacher-resource" data-kind="teacher" href="downloads/AEA2_S3_Guia_docent.pdf" download><span class="file doc">DOC</span><div><b>AEA2 · Sessió 3 · Guia docent</b><small>Conducció, solucionari, pistes i avaluació</small></div><em>↓</em></a>
-        <a class="teacher-resource" data-kind="teacher" href="downloads/AEA2_S3_Presentacio.pptx" download><span class="file ppt">PPT</span><div><b>AEA2 · Sessió 3 · Presentació</b><small>Enllaços i navegació · PPTX editable</small></div><em>↓</em></a>
-      </div>
+        </div>
     </section>
 
-    <section class="teacher-panel" id="teacherPanel" hidden>
-      <div><p class="overline">ESPAI DOCENT · PROTOTIP PRIVAT</p><h2>Guies docents per AEA</h2><p>Tria una AEA i després la sessió que impartiràs. Aquí trobaràs què preparar, com conduir-la, les respostes esperades, què observar i tots els materials docents disponibles.</p></div>
-      <div class="teacher-cards"><article><small>ABANS</small><b>Prepara entorn i materials</b><span>Anticipa els bloquejos</span></article><article><small>DURANT</small><b>Observa, pregunta, no resolguis</b><span>Guia amb pistes graduades</span></article><article><small>DESPRÉS</small><b>Revisa producte i procés</b><span>Codi, registre i evidències</span></article></div>
-      <nav class="teacher-aea-nav" aria-label="Selecciona una AEA per al professorat">
-        <button class="selected" data-teacher-aea="aea0"><small>COMPLETA</small><b>AEA0</b><span>Missió zero</span></button>
-        <button data-teacher-aea="aea1"><small>4 SESSIONS · COMPLETA</small><b>AEA1</b><span>Laboratori de pensament</span></button>
-        <button data-teacher-aea="aea2"><small>SESSIONS 1, 2 I 3</small><b>AEA2</b><span>Arquitectes de la informació</span></button>
-        <button disabled><small>EN PREPARACIÓ</small><b>AEA3–6</b><span>Contingut planificat</span></button>
-      </nav>
-
-      <section class="teacher-aea-view selected" data-teacher-view="aea0" aria-labelledby="aea0-teacher-title">
-        <div class="teacher-section-head"><div><small>AEA0 · 3 HORES · 1 SESSIÓ</small><h3 id="aea0-teacher-title">Missió zero · guia docent</h3></div><span>Paquet complet</span></div>
-        <nav class="teacher-tabs" aria-label="Parts docents de l'AEA0">
-          <button class="selected" data-teacher-detail="aea0-overview">Visió ràpida</button>
-          <button data-teacher-detail="aea0-run">Conducció</button>
-          <button data-teacher-detail="aea0-solutions">Solucions</button>
-          <button data-teacher-detail="aea0-assessment">Observació</button>
-          <button data-teacher-detail="aea0-materials">Materials</button>
-        </nav>
-        <article class="teacher-stage" id="aea0TeacherContent"></article>
-      </section>
-
-      <section class="teacher-aea-view" data-teacher-view="aea1" aria-labelledby="aea1-teacher-title" hidden>
-        <div class="teacher-section-head"><div><small>AEA1 · 12 HORES · 4 SESSIONS</small><h3 id="aea1-teacher-title">La màquina que no pensa · guia docent</h3></div><span>AEA1 completa</span></div>
-        <div class="teacher-session-nav" role="tablist" aria-label="Sessions de l'AEA1">
-          <button class="selected" data-teacher-session="aea1-s1">S1 · Seqüència</button>
-          <button data-teacher-session="aea1-s2">S2 · Patrons</button><button data-teacher-session="aea1-s3">S3 · Lògica</button><button data-teacher-session="aea1-s4">S4 · Xarxes</button>
-        </div>
-        <nav class="teacher-tabs" id="aea1TeacherTabs" aria-label="Parts docents de l'AEA1">
-          <button class="selected" data-teacher-detail="aea1-overview">Visió ràpida</button>
-          <button data-teacher-detail="aea1-run">Conducció</button>
-          <button data-teacher-detail="aea1-solutions">Solucions</button>
-          <button data-teacher-detail="aea1-assessment">Avaluació</button>
-          <button data-teacher-detail="aea1-materials">Materials</button>
-        </nav>
-        <article class="teacher-stage" id="aea1TeacherContent"></article>
-      </section>
-
-      <section class="teacher-aea-view" data-teacher-view="aea2" aria-labelledby="aea2-teacher-title" hidden>
-        <div class="teacher-section-head"><div><small id="aea2TeacherLabel">AEA2 · SESSIÓ 1</small><h3 id="aea2-teacher-title">La web per dins · guia docent</h3></div><span>Versió operativa</span></div>
-        <div class="teacher-session-nav" role="tablist" aria-label="Sessions de l'AEA2">
-          <button class="selected" data-aea2-teacher-session="s1">S1 · La web per dins</button><button data-aea2-teacher-session="s2">S2 · Contingut amb sentit</button><button data-aea2-teacher-session="s3">S3 · Connecta les pàgines</button><button disabled>S4 · Mitjans</button><button disabled>S5–7 · Properament</button>
-        </div>
-        <nav class="teacher-tabs" aria-label="Guia docent de la sessió 1 de l'AEA2">
-          <button data-aea2-teacher="overview">Visió ràpida</button>
-          <button class="selected" data-aea2-teacher="run">Conducció</button>
-          <button data-aea2-teacher="solutions">Solucions</button>
-          <button data-aea2-teacher="assessment">Avaluació</button>
-          <button data-aea2-teacher="materials">Materials</button>
-        </nav>
-        <article class="teacher-stage" id="aea2TeacherContent"></article>
-      </section>
-    </section>
-  </main>
+    </main>
 
   <footer class="footer"><span>Lògica i Programació · 1r SMX</span><span>Manual viu del mòdul</span></footer>
 
@@ -310,5 +269,5 @@
   </dialog>
   <script src="app.js"></script>
   <script src="extras.js"></script>
-</body>
+<script src="s4.js"></script></body>
 </html>
