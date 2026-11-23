@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ca">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pràctica S4 · Comença aquí</title>
+  </head>
+  <body>
+    <h1>Comença aquí · S4</h1>
+    <p>Descomprimeix el ZIP abans de treballar. Edita amb Bluefish, Sublime Text o un altre editor de text pla. Desa en UTF-8.</p>
+
+    <h2>Prova els subtítols a Ubuntu</h2>
+    <p>Amb doble clic, l’adreça comença per file://. El navegador pot bloquejar el fitxer VTT. Prova’l per HTTP sense canviar cap opció de seguretat.</p>
+    <ol>
+      <li>A la carpeta que conté model.html, fes clic dret en un espai buit i tria «Obre en un terminal».</li>
+      <li>Escriu aquesta ordre i prem Retorn:
+        <pre><code>python3 -m http.server 8000 --bind 127.0.0.1</code></pre>
+      </li>
+      <li>Mantén el terminal obert i visita <a href="http://127.0.0.1:8000/model.html">http://127.0.0.1:8000/model.html</a>.</li>
+      <li>Activa «Català» al menú de subtítols i reprodueix des de l’inici. El vídeo dura tres segons.</li>
+      <li>Desa i actualitza el navegador després de cada canvi. En acabar, atura el servidor amb Ctrl+C.</li>
+    </ol>
+    <p>Si el port està ocupat, usa 8001 tant a l’ordre com a l’adreça. Si no tens Python 3, demana ajuda al docent. El servidor només és accessible des del teu ordinador.</p>
+
+    <h2>Prova també el teu projecte</h2>
+    <p>Atura el servidor anterior. Repeteix els passos a la carpeta que conté index.html del projecte. Torna a obrir l’adreça HTTP, ara amb index.html.</p>
+
+    <h2>Ordre de treball</h2>
+    <ol>
+      <li>Explora i modifica model.html seguint el Laboratori del portal.</li>
+      <li>Integra imatge, àudio i vídeo al teu projecte amb alt, transcripció i VTT.</li>
+      <li>Repara els quatre errors de repte.html i desa repte_reparat.html.</li>
+      <li>Completa registre_s4.txt i comprimeix el projecte junt amb practica_s4/.</li>
+      <li>Prova el ZIP descomprimit, desa’l al Drive compartit i entrega el mateix ZIP a Classroom.</li>
+    </ol>
+  </body>
+</html>

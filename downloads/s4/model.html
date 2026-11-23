@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ca">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Model de mitjans</title>
+  </head>
+  <body>
+    <main>
+      <h1>Laboratori de mitjans</h1>
+      <p>Exemple amb formes i un to sintètic. Abaixa el volum abans de reproduir.</p>
+
+      <h2>Imatge</h2>
+      <img src="media/formes.png"
+           alt="Un rectangle verd i un cercle taronja dins d’un marc verd sobre fons blau"
+           width="400">
+
+      <h2>Àudio</h2>
+      <audio controls src="media/to.wav">
+        El navegador no admet àudio.
+      </audio>
+      <p>Transcripció: to continu de 440 Hz durant tres segons; no hi ha veu.</p>
+
+      <h2>Vídeo</h2>
+      <video controls width="400" src="media/formes.mp4">
+        <!-- La pista VTT conté el text i els temps de cada subtítol. -->
+        <track kind="captions"
+               src="media/subtitols.vtt"
+               srclang="ca"
+               label="Català"
+               default>
+      </video>
+      <p>Descripció: es mostren un rectangle verd i un cercle taronja durant tres segons mentre sona un to continu.</p>
+      <p>Per veure els subtítols, serveix aquesta pàgina per HTTP i activa «Català». <a href="LLEGEIX.html">Com obrir el model amb un servidor local</a>.</p>
+    </main>
+  </body>
+</html>
